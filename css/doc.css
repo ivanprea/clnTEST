@@ -1,0 +1,183 @@
+.doc_file {
+  margin-top: 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/docs/docs_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.doc_img {
+  border: 5px solid var(--primary);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.img-doc_bg {
+  width: 100%;
+}
+.doc_file h1 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--primary);
+}
+.doc_file h2 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+}
+.doc_file a {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary);
+  width: 350px;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.doc_file a:hover {
+  text-decoration: none;
+  color: var(--primary);
+  background-color: #eeeeee;
+
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 20px;
+  transition: ease-in-out 0.3s;
+}
+.container_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.doc_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: justify;
+  background-color: #eeeeee49;
+  border: 2px solid var(--primary);
+  width: 80%;
+  margin: 2rem;
+}
+.doc_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  border-radius: 10px;
+}
+.doc_card ul {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+.doc_card li {
+  list-style-type: none;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  color: var(--secondary);
+}
+.doc_card li h3 {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: white;
+}
+.doc_card > img {
+  height: 50px;
+  margin-top: 2rem;
+}
+.doc_card > img {
+  height: 50px;
+  margin-top: 2rem;
+}
+.doc_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  background-color: #eeeeee49;
+  border: 2px solid var(--primary);
+  margin: 2rem;
+}
+.doc_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  border-radius: 10px;
+}
+.doc_card2 ul {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+.doc_card2 li {
+  list-style-type: none;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+.doc_card2 li h3 {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: var(--primary);
+}
+.doc_card2 > img {
+  height: 50px;
+  margin-top: 2rem;
+}
+.doc_card2 > img {
+  height: 50px;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 991px) {
+  .container_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .doc_img {
+    border: 5px solid var(--primary);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+  }
+  .doc_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: justify;
+    height: 450px;
+  }
+  .doc_card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    width: 80%;
+  }
+  .doc_card,
+  img,
+  h2 {
+    align-self: center;
+  }
+}
