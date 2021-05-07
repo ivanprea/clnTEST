@@ -73,12 +73,10 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 80%;
-
   background-color: var(--primary);
   border-radius: 10px;
   color: white;
   margin: 1rem;
-
   padding: 2rem;
   text-align: justify;
 }
@@ -101,6 +99,13 @@ body {
   border-radius: 10px;
   height: 1.5rem;
 }
+.services_container > .list_card > li > a {
+  text-decoration: none;
+  color: white;
+}
+.services_container > .list_card > li > a:hover {
+  text-decoration: underline;
+}
 @media screen and (min-width: 1200px) {
   .services_container > .list_card {
     width: 500px;
@@ -122,6 +127,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.container_contact img {
+  height: 40px;
 }
 .container_contact > a {
   text-decoration: none;
