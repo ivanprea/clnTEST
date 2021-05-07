@@ -1,0 +1,74 @@
+.container_services {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+}
+.container_services > h1 {
+  margin: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--primary);
+  padding: 0.8rem;
+  border-radius: 30px;
+}
+.service_card {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+}
+.service_card > img {
+  height: 55px;
+}
+
+.service_card > h2 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-align: center;
+}
+.service_card > h3 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--secondary);
+  text-align: center;
+}
+.card_list {
+  text-align: justify;
+  text-align: left;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.card_p {
+  text-align: justify;
+  text-align: left;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 20px;
+  padding: 2rem;
+  /* width: 70%; */
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 991px) {
+  .card_p {
+    width: 70%;
+  }
+}
