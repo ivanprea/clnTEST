@@ -10,6 +10,7 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 /* SCROLL BAR */
 
@@ -39,7 +40,11 @@ body {
 .navbar-brand > img {
   width: 150px;
 }
-
+@media screen and (max-width: 350px) {
+  .navbar-brand > img {
+    width: 100px;
+  }
+}
 .home_container {
   margin-top: 55px;
   display: flex;
